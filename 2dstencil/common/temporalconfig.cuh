@@ -67,3 +67,8 @@ struct timesteps< 2,  box_shape,  8,  float>
   static int const val = 6;//7;
 };
 
+template<>
+struct timesteps< 3,  box_shape,  4,  double>
+{
+  static int const val = 2;
+};
